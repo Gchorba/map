@@ -56,7 +56,7 @@ $cache_file = "cache/" . urlencode($input . '.' . $assumption);
 
 function do_query($query)
 {
-    global $WOLFRAM_APPID;
+    global $WOLFRAM_APPID= "8AUKRK-KQLHKJXRXY";
     global $assumption;
 
     $url = 'http://api.wolframalpha.com/v2/query';
