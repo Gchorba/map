@@ -10,7 +10,6 @@ This PHP script should work with PHP >= 4.4 (maybe even below that).
  
 include 'config.php';
 
-header('Access-Control-Allow-Origin: *');
 header('Content-Type: text/xml');
 
 function startsWith($haystack, $needle)
