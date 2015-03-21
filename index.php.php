@@ -8,7 +8,7 @@ Create a folder cache in the same directory as this file and make it read- and w
 This PHP script should work with PHP >= 4.4 (maybe even below that).
 */
  
-include 'config.php';
+include 'index.php';
 
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: text/xml');
